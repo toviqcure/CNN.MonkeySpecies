@@ -1,4 +1,4 @@
-# 🐒🍌 Image classification tutorial series! 🐒🍌
+# 🐒🍌 Tutorial Image Classification menggunakan CNN untuk mengklasifikasi 10 Spesies Kera 🐒🍌
 
 <p align="center">
   <img width="800" src="How to classify monkey species using Tensor flow_ CNN and Keras Hyper parameters.png" "image">
@@ -8,88 +8,86 @@
 <br/><br/> 
 
 <font size= "4" >
-Welcome to our comprehensive image classification tutorial series! In this tutorial playlist, consisting of five informative videos, we will guide you through the entire process of classifying monkey species in images. 
-Each video focuses on a specific aspect of the process, providing you with a well-rounded understanding of the subject matter. 
-Join us as we cover data preparation, classic CNN classification, hyperparameter tuning with Keras Tuner, fine-tuning a pretrained model (VGG16), 
-and exploring the outcome of deep neural network layers. Get ready to dive into the world of monkey species classification and enhance your knowledge with practical examples and expert tips.
+Dalam tutorial ini, kita akan mencoba memahami dan re-run semua script berdasarkan kepada blog asli : 
+https://ko-fi.com/eranfeit/posts 
+Melalui seluruh proses pengklasifikasian spesies monyet dalam gambar.
+Setiap script berfokus pada aspek proses tertentu, sehingga semoga saja bisa memberikan pemahaman menyeluruh tentang pokok bahasannya.
+Ini mencakup : 
+1. persiapan data
+2. klasifikasi CNN klasik
+3. penyetelan hyperparameter dengan Keras Tuner
+4. penyempurnaan model yang telah dibor sebelumnya (VGG16),
+5. dan (bonusnya) mengeksplorasi hasil lapisan jaringan saraf dalam.
+
+semua script yang kami re-run (tentunya dengan beberapa modifikasi) mengacu kepada beberapa link url youtube  berikut ini : 
+<br/><br/> 
+  
+🐒 Video 1: Data Preparation
+Dalam video pertama seri kami, dijelaskan langkah-langkah penting dalam persiapan data untuk klasifikasi spesies monyet.
+- Temukan cara mengunduh data gambar yang diperlukan dan jelajahi karakteristiknya.
+- Pelajari cara melakukan praproses dan memformat data untuk memastikan data siap untuk tahap proses klasifikasi berikutnya.
+- Di akhir tutorial ini, kita akan memiliki kumpulan data yang telah dipersiapkan dengan baik, yang meletakkan dasar untuk klasifikasi yang akurat dan efisien.
+Berikut linknya: https://youtu.be/ycEzhwiAXjY
 
 <br/><br/> 
-🐒 Video 1: Data Preparation Tutorial:
-
-In the first video of our series, we will walk you through the essential steps of data preparation for monkey species classification. 
-Discover how to download the necessary image data and explore its characteristics. 
-Learn how to preprocess and format the data to ensure it is ready for the subsequent phases of the classification process. 
-By the end of this tutorial, you will have a well-prepared dataset, laying the foundation for accurate and efficient classification.
-
-You can find the video here : https://youtu.be/ycEzhwiAXjY
-
-<br/><br/> 
-🐒🐒 Video 2: CNN Classification Tutorial:
-
-Our second video focuses on the fundamental method of classifying monkey species using a Convolutional Neural Network (CNN). 
-Join us as we guide you through the process of writing a CNN model, training it using the prepared dataset, and evaluating its performance. 
-Gain insights into the inner workings of CNNs and witness their effectiveness in accurately classifying monkey species based on image data.
-
-You can find the video here : https://youtu.be/FfmE3WWKDgE
+🐒🐒 Video 2: CNN Classification
+Video kedua berfokus pada metode dasar mengklasifikasikan spesies monyet menggunakan Convolutional Neural Network (CNN).
+- Pada video ini ada panduan proses penulisan model CNN
+- Melatihnya menggunakan kumpulan data yang telah disiapkan
+- Mengevaluasi kinerjanya.
+Disini kita bisa mendapatkan wawasan tentang cara kerja CNN dan keefektifannya dalam mengklasifikasikan spesies monyet secara akurat berdasarkan data gambar.
+Berikut linknya: https://youtu.be/FfmE3WWKDgE
  
 <br/><br/> 
  
-🐒🐒🐒 Video 3: Enhancing Classification with Keras Tuner:
-
-In the third video, we take the CNN classification tutorial to the next level by incorporating Keras Tuner. 
-Discover how to optimize the performance of your CNN model by automatically searching for the best hyperparameters. 
-Learn how to leverage the power of Keras Tuner to fine-tune your model and achieve even more accurate results in classifying monkey species.
-
-You can find the video here : https://youtu.be/RHMLCK5UWyk
+🐒🐒🐒 Video 3: Meningkatkan Klasifikasi dengan Keras Tuner
+Di video ketiga, ini menjelaskan tutorial klasifikasi CNN ke level berikutnya dengan memasukkan Keras Tuner.
+- Temukan cara mengoptimalkan performa model CNN Anda dengan mencari hyperparameter terbaik secara otomatis.
+- Pelajari cara memanfaatkan kekuatan Keras Tuner untuk menyempurnakan model untuk mencapai hasil yang lebih akurat dalam mengklasifikasikan spesies monyet.
+Berikut linknya:  https://youtu.be/RHMLCK5UWyk
 
 <br/><br/> 
  
-🐒🐒🐒🐒 Video 4: Fine-tuning with Pretrained VGG16:
+🐒🐒🐒🐒 Video 4: Fine-tuning dengan Pretrained VGG16:
+Di video keempat menjelaskan tentang eksplorasi pendekatan alternatif untuk klasifikasi gambar dengan memanfaatkan model yang telah dilatih sebelumnya, khususnya VGG16.
+- Hal yang = penting disini adalah proses penyempurnaan model VGG16 untuk tugas klasifikasi spesies monyet.
+- Pelajari cara mengadaptasi model terlatih yang canggih untuk mengklasifikasikan spesies monyet secara akurat dan memanfaatkan fitur-fitur canggihnya untuk hasil yang lebih baik.
 
-In the fourth video, we explore an alternative approach to image classification by utilizing a pretrained model, specifically VGG16. 
-Join us as we guide you through the process of fine-tuning the VGG16 model for the task of monkey species classification. 
-Learn how to adapt a powerful pretrained model to accurately classify monkey species and leverage its advanced features for improved results.
-
-You can find the video here : https://youtu.be/p9l9AgiVsqI 
+Berikut linknya: https://youtu.be/p9l9AgiVsqI 
 
 <br/><br/> 
 
-🐒🐒🐒🐒🐒 Video 5: Visualizing Deep Neural Network Layers:
+🐒🐒🐒🐒🐒 Video 5 (BONUS): Visualisasi Deep Neural Network Layers  ---> out of topic 
+Dalam video kelima dan terakhir, kita akan mempelajari dunia interpretasi model yang menakjubkan dengan menjelajahi hasil Deep Neural Network Layers.
+Saksikan apa yang "dilihat" oleh jaringan terlatih saat kita membedah lapisan dan memvisualisasikan keluarannya untuk kelas tertentu.
+Dapatkan pemahaman yang lebih mendalam tentang bagaimana jaringan memproses dan menafsirkan gambar, memberikan wawasan berharga ke dalam proses klasifikasi.
 
-In our fifth and final video, we delve into the fascinating world of model interpretability by exploring the outcome of deep neural network layers.
-Witness what a trained network "sees" as we dissect the layers and visualize their outputs for a specific class. 
-Gain a deeper understanding of how the network processes and interprets images, providing valuable insights into the classification process.
-
-You can find the video here : https://youtu.be/yg4Gs5_pebY
+Berikut linknya: https://youtu.be/yg4Gs5_pebY
 
 <br/><br/>
-It is all based on Tensorflow and keras.
-You can find more cool Tensorflow projects and tutorials in this [playlist](https://youtube.com/playlist?list=PLdkryDe59y4Ze9_12JhWu3cs-lOGYwYeD)
+Semuanya menggunakan Tensorflow dan Keras.
+#googlecolab
+#tensorflow 
+#keras
+#vgg16
+
+Anda dapat menemukan lebih banyak proyek dan tutorial Tensorflow keren di sini [playlist](https://youtube.com/playlist?list=PLdkryDe59y4Ze9_12JhWu3cs-lOGYwYeD)
 
 Enjoy
 
-Eran
+Credit to Pak Eran Feit.
 <br/><br/> 
 
 </font>
-
+####### Catatan Titipan #######
 # Recommended courses and relevant products 
 <font size= "4" >
 
 If you are interested in learning modern Computer Vision course with deep dive with TensorFlow , Keras and Pytorch , you can find it [here](http://bit.ly/3HeDy1V).
-
 Perfect course for every computer vision enthusiastic
-
 Before we continue , I actually recommend this [book](https://amzn.to/3STWZ2N) for deep learning based on Tensorflow and Keras : 
-
-
 
 </font>
 
 # Connect
-
-
-
-</font>
-
 

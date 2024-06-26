@@ -88,7 +88,4 @@ If you are interested in learning modern Computer Vision course with deep dive w
 Perfect course for every computer vision enthusiastic
 Before we continue , I actually recommend this [book](https://amzn.to/3STWZ2N) for deep learning based on Tensorflow and Keras : 
 
-</font>
-
-# Connect
 
